@@ -486,7 +486,6 @@ p.lead {
     top: 10%;
     left: 20px;
     transform: rotate(-3deg);
-    z-index: 1;
     opacity: 0.8;
     scale: 0.9;
 }
@@ -1121,7 +1120,15 @@ footer {
         width: 100%;
         text-align: center;
         display: block;
+   
         /* Ensure full width behavior */
+    }
+
+    .btn-nav {
+     font-weight: 500;
+     color: var(--text-body);
+    font-size: 1rem;
+    background: transparent;
     }
 
     .hero-btns {
@@ -1144,20 +1151,30 @@ footer {
     .floating-badge {
         padding: 8px 12px;
         font-size: 0.8rem;
+        animation: none;
     }
 
     /* Bring badges closer to avoid overflow */
     .badge-seo {
-        right: -5px;
+        right: 0;
+        top: 15%;
+        transform: rotate(0deg) scale(0.9);
+        z-index: 4;
     }
 
     .badge-mobile {
-        left: -5px;
-        bottom: 10%;
+        left: 0;
+        bottom: 5%;
+        transform: rotate(0deg) scale(0.9);
+        z-index: 4;
     }
 
     .badge-speed {
-        left: 0;
+        top: 10px;
+        left: 5px;
+        transform: rotate(-2deg) scale(0.9);
+        z-index: 5;
+        animation: none;
     }
 }
 
@@ -1206,6 +1223,26 @@ footer {
 
     .rocket-icon {
         font-size: 3.5rem;
+    }
+
+    .badge-speed {
+        top: 0;
+        left: 0;
+        transform: rotate(0deg) scale(0.85);
+        z-index: 5;
+        animation: none;
+    }
+
+    .badge-seo {
+        right: 0;
+        top: 10%;
+        transform: scale(0.85);
+    }
+
+    .badge-mobile {
+        left: 0;
+        bottom: 0;
+        transform: scale(0.85);
     }
 }
 
