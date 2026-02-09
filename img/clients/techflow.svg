@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
-  <path fill="#0f172a" d="M30 10h10v40H30z"/>
-  <path fill="#3b82f6" d="M10 10h60v10H10z"/>
-  <text x="60" y="42" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#1e293b">TechFlow</text>
+  <path fill="#575562" d="M30 10h10v40H30z"/>
+  <path fill="#f9ca33" d="M10 10h60v10H10z"/>
+  <text x="60" y="42" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#575562">TechFlow</text>
 </svg>

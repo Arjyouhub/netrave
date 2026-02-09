@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 2. Scroll Animations (Intersection Observer)
-    const animateElements = document.querySelectorAll('.animate');
+    const animateElements = document.querySelectorAll('.fade-up');
 
     const observerOptions = {
         threshold: 0.1,

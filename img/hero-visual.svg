@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#f9ca33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#575562;stop-opacity:1" />
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.1"/>
@@ -34,7 +34,7 @@
   
   <!-- Pie Chart Circle -->
   <circle cx="300" cy="145" r="35" fill="none" stroke="#e2e8f0" stroke-width="10"/>
-  <path d="M300 110 A35 35 0 0 1 335 145" fill="none" stroke="#3b82f6" stroke-width="10"/>
+  <path d="M300 110 A35 35 0 0 1 335 145" fill="none" stroke="#f9ca33" stroke-width="10"/>
   
   <!-- Floating Elements (Growth Success) -->
   <g transform="translate(260, 200)">

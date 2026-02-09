@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
-  <rect x="20" y="20" width="20" height="20" fill="#0f172a"/>
-  <rect x="35" y="10" width="10" height="10" fill="#3b82f6"/>
-  <rect x="15" y="35" width="10" height="10" fill="#06b6d4"/>
-  <text x="60" y="40" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#1e293b">CyberCore</text>
+  <rect x="20" y="20" width="20" height="20" fill="#575562"/>
+  <rect x="35" y="10" width="10" height="10" fill="#f9ca33"/>
+  <rect x="15" y="35" width="10" height="10" fill="#f9ca33"/>
+  <text x="60" y="40" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#575562">CyberCore</text>
 </svg>
